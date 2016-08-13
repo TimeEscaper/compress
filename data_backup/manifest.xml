@@ -1,0 +1,36 @@
+<manifest build="True">
+    <meta>
+        <version>Version of program/format</version>
+        <date>Date of creation</date>
+        <modified>Date of last modification</modified>
+        <author>Author of the quest</author>
+        <title>Title of the quest</title>
+        <description>Description of the quest</description>
+        <tags>
+            <tag>Sample tag 1</tag>
+            <tag>Sample tag 2</tag>
+            <tag>Sample tag 3</tag>
+        </tags>
+    </meta>
+    <settings>
+        <pages>
+            <page>Page title 1</page>
+            <page>Page title 2</page>
+            <page>Page title 3</page>
+        </pages>
+        <images>
+            <image>Image 1</image>
+            <image>Image 2</image>
+            <image>Image 3</image>
+        </images>
+        <variables>
+            <var type="int" verbose="Title of variable 1">Variable 1</var>
+            <var type="string" verbose="Title of variable 2">Variable 2</var>
+            <array type="string" name="Variable 3" verbose="Title of variable 3">
+                <var type="string">Array Variable 1</var>
+                <var type="string">Array Variable 2</var>
+                <var type="string">Array Variable 3</var>
+            </array>
+        </variables>
+    </settings>
+</manifest>

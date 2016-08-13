@@ -1,0 +1,13 @@
+<page>
+    <title>Sample page</title>
+    <text>Sample text, sample var {% var %}</text>
+    <img>Image name</img>
+    <answers>
+        <answer next="next page">
+            <text>Sample anser</text>
+            <script>
+                Sample script for manupalting variables
+            </script>
+        </answer>
+    </answers>
+</page>
